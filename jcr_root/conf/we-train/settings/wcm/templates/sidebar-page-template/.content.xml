@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2018-12-13T11:04:54.127-08:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-12-13T11:05:11.295-08:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/we-train/settings/wcm/template-types/empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Sidebar Page Template"
+        status="enabled"/>
+</jcr:root>

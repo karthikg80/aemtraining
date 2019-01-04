@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <jcr:content
+                        jcr:primaryType="nt:unstructured"
+                        mergeList="{Boolean}true"/>
+                    <default
+                        jcr:description="Policy of the default page"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Default Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[wcm.foundation.components.page.responsive]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-12-11T13:26:23.043-08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </default>
+                </page>
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_147752896027021
+                        jcr:lastModified="{Date}2018-12-13T10:17:43.280-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Train Structure Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/wcm/foundation/components/responsivegrid,group:We.Train,group:We.Train.Structure]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-12-13T11:05:11.295-08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_147752896027021>
+                    <policy_148540003323135
+                        jcr:lastModified="{Date}2018-12-13T11:07:56.465-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Train Content Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/dam/cfm/components/contentfragment,/libs/cq/experience-fragments/editor/components/experiencefragment,/libs/foundation/components/image,/libs/foundation/components/list,/libs/foundation/components/text,/libs/foundation/components/title,group:We.Train]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-12-13T11:08:24.487-08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_148540003323135>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <training jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <structure jcr:primaryType="nt:unstructured">
+                <page jcr:primaryType="nt:unstructured">
+                    <policy_1544630424144
+                        jcr:lastModified="{Date}2018-12-12T08:01:46.234-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Custom Clientlibs"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        clientlibs="[wcm.foundation.components.page.responsive,we.train.custom.lib]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1544630424144>
+                </page>
+                <footer jcr:primaryType="nt:unstructured">
+                    <policy_1544652334483
+                        jcr:lastModified="{Date}2018-12-12T14:07:13.486-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Train Footer Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        pages="/content/we-retail/us/en/experience">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-12-13T11:05:11.295-08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1544652334483>
+                </footer>
+            </structure>
+            <content jcr:primaryType="nt:unstructured">
+                <stockplex jcr:primaryType="nt:unstructured">
+                    <policy_1544714608766
+                        jcr:lastModified="{Date}2018-12-13T07:26:34.655-08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Stockplex Style System Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:styleGroups jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:styleGroupLabel="Font Types"
+                                cq:styleGroupMultiple="true"
+                                jcr:primaryType="nt:unstructured">
+                                <cq:styles jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:styleClasses="cmp-stockplex--italic"
+                                        cq:styleId="1544714669934"
+                                        cq:styleLabel="Italic"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item1
+                                        cq:styleClasses="cmp-stockplex--bold"
+                                        cq:styleId="1544714671365"
+                                        cq:styleLabel="Bold"
+                                        jcr:primaryType="nt:unstructured"/>
+                                    <item2
+                                        cq:styleClasses="cmp-stockplex--red"
+                                        cq:styleId="1544714721769"
+                                        cq:styleLabel="Red"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </cq:styles>
+                            </item0>
+                        </cq:styleGroups>
+                    </policy_1544714608766>
+                </stockplex>
+            </content>
+        </components>
+    </training>
+    <dam jcr:primaryType="nt:unstructured">
+        <cfm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <contentfragment jcr:primaryType="nt:unstructured"/>
+            </components>
+        </cfm>
+    </dam>
+    <foundation jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <image jcr:primaryType="nt:unstructured">
+                <policy_1544651142629
+                    jcr:lastModified="{Date}2018-12-12T13:47:20.226-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="We.Train Image Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowUpload="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <plugins jcr:primaryType="nt:unstructured">
+                        <crop
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <aspectRatios
+                                jcr:primaryType="nt:unstructured"
+                                override="true">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Wide Landscape"
+                                    ratio="0.8284"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Landscape"
+                                    ratio="0.6180"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Square"
+                                    ratio="1"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    name="Portrait"
+                                    ratio="1.6180"/>
+                            </aspectRatios>
+                        </crop>
+                        <rotate
+                            jcr:primaryType="nt:unstructured"
+                            features="right"/>
+                        <flip
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <map
+                            jcr:primaryType="nt:unstructured"
+                            features="rectangle,launch,unlaunch,confirm,circle,polygon"/>
+                    </plugins>
+                </policy_1544651142629>
+            </image>
+        </components>
+    </foundation>
+</jcr:root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Assets From Sample Package">
+        <folderThumbnail/>
+    </jcr:content>
+    <PorcupineMural-Painted.jpg/>
+    <Paris-Graffiti-Cat-140821.jpg/>
+    <PittedRust.jpg/>
+    <Superior-Striped-Rock.jpg/>
+    <Superior-Driftwood-Knots-130705.jpg/>
+    <_x0031_10828-Golden-Gate-Tower.jpg/>
+</jcr:root>

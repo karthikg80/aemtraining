@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-12-13T09:39:09.909-08:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-train/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="training/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-12-11T13:22:19.239-08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-12-11T13:22:51.049-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                    jcr:created="{Date}2018-12-11T14:15:19.686-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-11T14:15:19.686-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/title"/>
+                <image
+                    jcr:created="{Date}2018-12-12T13:41:18.231-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-12T13:41:18.231-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"/>
+                <list
+                    jcr:created="{Date}2018-12-12T13:53:31.131-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-12T13:53:31.131-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/list"/>
+                <stockplex
+                    cq:styleIds="[1544714721769,1544714671365,1544714669934]"
+                    jcr:created="{Date}2018-12-12T14:51:13.908-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-13T07:28:14.942-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="training/components/content/stockplex"
+                    showStockDetails="true"
+                    summary="Adobe's Stock price today"
+                    symbol="ADBE"/>
+                <title_1521740071
+                    jcr:created="{Date}2018-12-13T09:38:31.360-08:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-12-13T09:39:09.906-08:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="My new title"
+                    sling:resourceType="training/components/content/title"
+                    subtitle="My custom subtitle"
+                    type="h1"/>
+            </responsivegrid>
+            <pagehero
+                jcr:lastModified="{Date}2018-12-12T13:38:18.437-08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="training/components/structure/pagehero"
+                fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/surfer-wave-02.jpg"/>
+        </root>
+    </jcr:content>
+    <about-us/>
+    <experiences/>
+    <equipment/>
+    <activities/>
+</jcr:root>

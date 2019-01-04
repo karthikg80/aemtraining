@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /conf/we-train,/content/we-retail/jcr:content/i
+ mage/file/jcr:content/dam:thumbnails,/content/dam/assets-from-sample-
+ package,/content/we-train,/content/usergenerated/asi,/conf/we-retail/
+ settings/wcm/templates/sample-template,/libs/cq/ui/widgets/themes/def
+ ault/icons,/apps/training,/apps/cq/core/content/nav,/content/hello-wo
+ rld,/apps/cq
+Content-Package-Type: mixed
+Content-Package-Id: training:ParuSubramonian-all-labs-tests:1.0
+

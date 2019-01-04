@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/we-train"/>
+    <filter root="/conf/we-retail/settings/wcm/templates/sample-template"/>
+    <filter root="/content/usergenerated/asi"/>
+    <filter root="/content/we-retail/jcr:content/image/file/jcr:content/dam:thumbnails"/>
+    <filter root="/apps/training"/>
+    <filter root="/content/dam/assets-from-sample-package"/>
+    <filter root="/content/hello-world"/>
+    <filter root="/content/usergenerated/asi"/>
+    <filter root="/libs/cq/ui/widgets/themes/default/icons"/>
+    <filter root="/content/we-train"/>
+    <filter root="/apps/cq"/>
+    <filter root="/apps/cq/core/content/nav"/>
+</workspaceFilter>

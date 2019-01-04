@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="64b92ff7-b794-47b6-90e1-340463b0ba2c">
+    <jcr:content
+        cq:name="Superior-Driftwood-Knots-130705.jpg"
+        cq:parentPath="/content/dam/assets-from-sample-package"
+        dam:assetState="processed"
+        dam:relativePath="assets-from-sample-package/Superior-Driftwood-Knots-130705.jpg"
+        jcr:lastModified="{Date}2018-12-13T14:21:05.289-08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2015-02-10T19:42:58.056-05:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="9cb1e24fe77a4a6493ee3ee36f166f462b5cd5e8"
+            dam:size="{Long}793423"
+            dam:writebackEnable="False"
+            dc:creator="[Lee Klement]"
+            dc:creator_xmpArrayType="rdf:Seq"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2015-02-10T19:46:51.972-05:00"
+            dc:title="Driftwood Knots"
+            jcr:lastModified="{Date}2018-12-13T14:21:05.224-08:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Driftwood Knots"
+            tiff:ImageLength="{Long}1137"
+            tiff:ImageWidth="{Long}1680"
+            xmp:CreatorTool="6.1.4"
+            xmpMM:DocumentID="xmp.did:B8B68085E07A11E2AB8CC3A529F76871"
+            xmpMM:InstanceID="xmp.iid:B8B68084E07A11E2AB8CC3A529F76871"
+            xmpRights:Owner="Lee Klement">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="8F1F56B1D3CD79AABF081E2D9BE70AAB"
+                stRef:instanceID="8F1F56B1D3CD79AABF081E2D9BE70AAB"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
